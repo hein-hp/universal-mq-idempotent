@@ -13,7 +13,6 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
-import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
@@ -23,7 +22,6 @@ import java.util.Optional;
  * @author hein
  */
 @Aspect
-@Component
 public class IdempotentAspect {
 
     private static final Logger log = LoggerFactory.getLogger(IdempotentAspect.class);
